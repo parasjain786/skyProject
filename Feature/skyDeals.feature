@@ -1,6 +1,6 @@
 Feature: Navigation and Usage of Sky Home and Deal page
 
-Scenario Outline: verify user is navigated and displayed list of deals on the deals page
+Scenario Outline: verify user navigated and displayed list of deals on the deals page
     Given User is on Home Page
     When  User clicks on "Deals"
     Then  User should navigate to "<url>"
